@@ -1,0 +1,633 @@
+{
+	"id": "2fa30e0e-0698-4cb8-b46e-ff20948bb6ae",
+	"name": "08-21 Automation CA-MarketingHW11",
+	"timestamp": "2021-11-23T04:38:15.514Z",
+	"collection_id": "17757578-3c623827-0800-4f75-836c-1382374f5fad",
+	"folder_id": 0,
+	"environment_id": "949d39c5-d4c5-451c-8049-8d575db287a6",
+	"totalPass": 66,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5cf37bfb-0f5d-4186-849a-f6807839e0bb",
+			"name": "Create new postal address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"time": 130,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"ID is correct": true,
+				"ID is correct2": true,
+				"Status 200 OK": true,
+				"Response assertions": true,
+				"Response time is less than 1000ms": true,
+				"Header is correct": true,
+				"Response should be okey to process": true,
+				"Backend is available, response code is 200": true,
+				"Response code is 200 OK": true,
+				"Response Time is Acceptable": true
+			},
+			"testPassFailCounts": {
+				"ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ID is correct2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response assertions": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Header is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response code is 200 OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Time is Acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"ID is correct": true,
+					"ID is correct2": true,
+					"Status 200 OK": true,
+					"Response assertions": true,
+					"Response time is less than 1000ms": true,
+					"Header is correct": true,
+					"Response should be okey to process": true,
+					"Backend is available, response code is 200": true,
+					"Response code is 200 OK": true,
+					"Response Time is Acceptable": true
+				}
+			]
+		},
+		{
+			"id": "c8433912-3c70-4397-99e4-01c7fb498e9a",
+			"name": "Make default address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/default",
+			"time": 123,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Header is present and correct": true,
+				"Address has been updated, OK": true,
+				"Backend is available, response code is 200": true,
+				"Response Time is Acceptable": true
+			},
+			"testPassFailCounts": {
+				"Response Header is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Address has been updated, OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Time is Acceptable": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				123
+			],
+			"allTests": [
+				{
+					"Response Header is present and correct": true,
+					"Address has been updated, OK": true,
+					"Backend is available, response code is 200": true,
+					"Response Time is Acceptable": true
+				}
+			]
+		},
+		{
+			"id": "20dfb1ae-ff33-42d8-992a-1fadbd51b3d0",
+			"name": "Show All addresses",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses",
+			"time": 129,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response should be okey to process": true,
+				"New ID is in response": true,
+				"Response Header is present and correct": true,
+				"Response Time is less than 1000ms": true,
+				"Response Size is less than 10KB": true,
+				"Backend is available, response code is 200": true,
+				"200 Ok. The request has succeeded.": true
+			},
+			"testPassFailCounts": {
+				"Response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"New ID is in response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Header is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Size is less than 10KB": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"200 Ok. The request has succeeded.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				129
+			],
+			"allTests": [
+				{
+					"Response should be okey to process": true,
+					"New ID is in response": true,
+					"Response Header is present and correct": true,
+					"Response Time is less than 1000ms": true,
+					"Response Size is less than 10KB": true,
+					"Backend is available, response code is 200": true,
+					"200 Ok. The request has succeeded.": true
+				}
+			]
+		},
+		{
+			"id": "0a2fedd7-ab91-4948-a028-5efd928b0662",
+			"name": "Show Specific address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=e696fede-9b8d-4a7d-985e-17947b88d58d",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response should be okey to process": true,
+				"ID is correct": true,
+				"Phone Number is correct": true,
+				"Response body should be in the correct format": true,
+				"Response Header is present and correct": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Phone Number is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body should be in the correct format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Header is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				115
+			],
+			"allTests": [
+				{
+					"Response should be okey to process": true,
+					"ID is correct": true,
+					"Phone Number is correct": true,
+					"Response body should be in the correct format": true,
+					"Response Header is present and correct": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		},
+		{
+			"id": "c3bea8e1-6f2e-4af2-b6b6-35f0dae21c51",
+			"name": "Modify existing address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=e696fede-9b8d-4a7d-985e-17947b88d58d",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Time is less than 1000ms": true,
+				"Response Header is present and correct": true,
+				"Address has been updated, OK": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response Time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Header is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Address has been updated, OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Response Time is less than 1000ms": true,
+					"Response Header is present and correct": true,
+					"Address has been updated, OK": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a0db0567-2d5d-4403-bc79-e3b251d79e80",
+			"name": "Check Updated Specific address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=e696fede-9b8d-4a7d-985e-17947b88d58d",
+			"time": 100,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"company is Google": true,
+				"Company is Google": true,
+				"Company is current": true,
+				"Company is correct again": true,
+				"Response should be okey to process": true,
+				"Response body should be in the correct format": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"company is Google": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company is Google": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company is current": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Company is correct again": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should be okey to process": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response body should be in the correct format": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				100
+			],
+			"allTests": [
+				{
+					"company is Google": true,
+					"Company is Google": true,
+					"Company is current": true,
+					"Company is correct again": true,
+					"Response should be okey to process": true,
+					"Response body should be in the correct format": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2f2abcad-251a-4589-a08f-d0b70553f9b4",
+			"name": "Delete Specific address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=e696fede-9b8d-4a7d-985e-17947b88d58d",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response Time is less than 1000ms": true,
+				"Response Size is less than 1000 B": true,
+				"Response Header is present and correct": true,
+				"Order has been deleted, OK": true,
+				"Backend is available, response code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response Time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Size is less than 1000 B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Header is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Order has been deleted, OK": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Backend is available, response code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"Response Time is less than 1000ms": true,
+					"Response Size is less than 1000 B": true,
+					"Response Header is present and correct": true,
+					"Order has been deleted, OK": true,
+					"Backend is available, response code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0d597f76-ff6b-4f84-a6e9-b0585c91dd8a",
+			"name": "Delete Deleted address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=e696fede-9b8d-4a7d-985e-17947b88d58d",
+			"time": 102,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400, as expected": true,
+				"Response Time is less than 1000ms": true,
+				"Response Size is less than 1000 B": true,
+				"Content-Tape is present and correct": true,
+				"Content_Length is present and correct": true,
+				"Connection is present and correct": true,
+				"Server is present and correct": true,
+				"Order can't be deleted, nonexist. As expected": true,
+				"Masage is iclude previously deleted ID": true,
+				"Masage deleted ID is correct": true,
+				"Bad Request 400 is OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, as expected": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Size is less than 1000 B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Tape is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content_Length is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Order can't be deleted, nonexist. As expected": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Masage is iclude previously deleted ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Masage deleted ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Bad Request 400 is OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				102
+			],
+			"allTests": [
+				{
+					"Status code is 400, as expected": true,
+					"Response Time is less than 1000ms": true,
+					"Response Size is less than 1000 B": true,
+					"Content-Tape is present and correct": true,
+					"Content_Length is present and correct": true,
+					"Connection is present and correct": true,
+					"Server is present and correct": true,
+					"Order can't be deleted, nonexist. As expected": true,
+					"Masage is iclude previously deleted ID": true,
+					"Masage deleted ID is correct": true,
+					"Bad Request 400 is OK": true
+				}
+			]
+		},
+		{
+			"id": "8aa1dc85-1277-4bca-8869-8b1645446345",
+			"name": "Check Deleted Specific address",
+			"url": "https://addresses.wixapps.net/_api/addresses-web/v1/addresses/?id=e696fede-9b8d-4a7d-985e-17947b88d58d",
+			"time": 158,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400, as expected": true,
+				"Response Time is less than 1000ms": true,
+				"Response Size is less than 1000 B": true,
+				"Content-Tape is present and correct": true,
+				"Content_Length is present and correct": true,
+				"Connection is present and correct": true,
+				"Server is present and correct": true,
+				"Order can't be deleted, nonexist. As expected": true,
+				"Masage is iclude previously deleted ID": true,
+				"Masage deleted ID is correct": true,
+				"Bad Request 400 is OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400, as expected": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Time is less than 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response Size is less than 1000 B": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Tape is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content_Length is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Connection is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Server is present and correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Order can't be deleted, nonexist. As expected": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Masage is iclude previously deleted ID": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Masage deleted ID is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Bad Request 400 is OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				158
+			],
+			"allTests": [
+				{
+					"Status code is 400, as expected": true,
+					"Response Time is less than 1000ms": true,
+					"Response Size is less than 1000 B": true,
+					"Content-Tape is present and correct": true,
+					"Content_Length is present and correct": true,
+					"Connection is present and correct": true,
+					"Server is present and correct": true,
+					"Order can't be deleted, nonexist. As expected": true,
+					"Masage is iclude previously deleted ID": true,
+					"Masage deleted ID is correct": true,
+					"Bad Request 400 is OK": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1172,
+	"collection": {
+		"requests": [
+			{
+				"id": "5cf37bfb-0f5d-4186-849a-f6807839e0bb",
+				"method": "POST"
+			},
+			{
+				"id": "c8433912-3c70-4397-99e4-01c7fb498e9a",
+				"method": "POST"
+			},
+			{
+				"id": "20dfb1ae-ff33-42d8-992a-1fadbd51b3d0",
+				"method": "GET"
+			},
+			{
+				"id": "0a2fedd7-ab91-4948-a028-5efd928b0662",
+				"method": "GET"
+			},
+			{
+				"id": "c3bea8e1-6f2e-4af2-b6b6-35f0dae21c51",
+				"method": "PATCH"
+			},
+			{
+				"id": "a0db0567-2d5d-4403-bc79-e3b251d79e80",
+				"method": "GET"
+			},
+			{
+				"id": "2f2abcad-251a-4589-a08f-d0b70553f9b4",
+				"method": "DELETE"
+			},
+			{
+				"id": "0d597f76-ff6b-4f84-a6e9-b0585c91dd8a",
+				"method": "DELETE"
+			},
+			{
+				"id": "8aa1dc85-1277-4bca-8869-8b1645446345",
+				"method": "GET"
+			}
+		]
+	}
+}
